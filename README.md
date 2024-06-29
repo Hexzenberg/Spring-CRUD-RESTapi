@@ -46,7 +46,7 @@ mvn spring-boot:run
 
 # Access the API:
 
-The API will be available at http://localhost:9191.(Check the port number just to be sure though)
+The API will be available at http://localhost:9191. (Check the port number just to be sure though)
 
 # API Endpoints:
 
