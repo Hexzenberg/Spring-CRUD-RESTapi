@@ -1,6 +1,6 @@
 # CRUD API
 
-- This project is basically a RESTFul API made with Spring Boot(JAVA). The database used was PostgresSQL locally on the system.
+- This project is basically a RESTFul API made with Spring Boot(JAVA). The database used was PostgreSQL locally on the system.
 
 - Easily able to do the CRUD operations in different url paths. Verified by sending the requests using POSTMAN.
 
