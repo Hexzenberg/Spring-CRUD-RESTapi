@@ -27,12 +27,12 @@ cd your-repository-name
 
 ### properties:
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/mydatabase
-spring.datasource.username=your_postgres_username
-spring.datasource.password=your_postgres_password
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+- spring.datasource.url=jdbc:postgresql://localhost:5432/mydatabase
+- spring.datasource.username=your_postgres_username
+- spring.datasource.password=your_postgres_password
+- spring.jpa.hibernate.ddl-auto=update
+- spring.jpa.show-sql=true
+- spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
 ### Build and Run the Application
 
@@ -50,12 +50,12 @@ The API will be available at http://localhost:9191. (Check the port number just 
 
 ### API Endpoints:
 
-Create a Product: POST /addProduct
-Create Multiple Products: POST /addProducts
-Get All Products: GET /products
-Get Product by ID: GET /product/{id}
-Update a Product: PUT /update
-Delete a Product: DELETE /delete/{id}
+- Create a Product: POST /addProduct
+- Create Multiple Products: POST /addProducts
+- Get All Products: GET /products
+- Get Product by ID: GET /product/{id}
+- Update a Product: PUT /update
+- Delete a Product: DELETE /delete/{id}
 
 ### Example Requests:
 
